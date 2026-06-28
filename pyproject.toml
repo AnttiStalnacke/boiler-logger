@@ -5,3 +5,5 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
+[project.scripts]
+boiler_logger = "boiler_logger.__main__:main"
